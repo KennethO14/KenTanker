@@ -10,6 +10,11 @@ public class GitTest {
             System.out.println(first + second);
     }
     
+    if(args[0].equals ("subtract")){
+      Double first = Double.parseDouble(args[1]);
+            Double second = Double.parseDouble(args[2]);
+            System.out.println(first - second);
+    }
     
     
   }
