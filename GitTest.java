@@ -1,0 +1,19 @@
+
+public class GitTest {
+  
+  
+  public static void main(String[] args) { 
+    
+    if(args[0].equals ("add")){
+      Double first = Double.parseDouble(args[1]);
+            Double second = Double.parseDouble(args[2]);
+            System.out.println(first + second);
+    }
+    
+    
+    
+  }
+  
+
+  
+}
