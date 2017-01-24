@@ -22,12 +22,6 @@ public class GitTest {
             System.out.println(first * second);
     }
     
-
-      if(args[0].equals ("divide")){
-      double first = double.parseDouble(args[1]);
-            double second = double.parseDouble(args[2]);
-            System.out.println(first / second);
-    }
     
   }
   
